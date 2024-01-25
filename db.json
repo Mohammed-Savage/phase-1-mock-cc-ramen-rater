@@ -2,43 +2,43 @@
   "ramens": [
     {
       "id": 1,
-      "name": "Shoyu Ramen",
-      "restaurant": "Nonono",
+      "name": "Goro Akechi",
+      "restaurant": "Japanese Bobtail",
       "image": "./assets/ramen/shoyu.jpg",
-      "rating": 7,
-      "comment": "Delish. Can't go wrong with a classic!"
+      "rating": 4,
+      "comment": "Tsundere in cute kitty form."
     },
     {
       "id": 2,
-      "name": "Naruto Ramen",
-      "restaurant": "Naruto",
+      "name": "Morgana",
+      "restaurant": "Tuxedo",
       "image": "./assets/ramen/naruto.jpg",
-      "rating": 10,
-      "comment": "My absolute fave!"
+      "rating": 9,
+      "comment": "The mascot of our little outfit"
     },
     {
       "id": 3,
-      "name": "Nirvana Shiromaru",
-      "restaurant": "Ippudo",
+      "name": "Joker",
+      "restaurant": "White Tomcat",
       "image": "./assets/ramen/nirvana.jpg",
-      "rating": "7",
-      "comment": "Do buy the hype."
+      "rating": "6",
+      "comment": "Our stand in or self insert."
     },
     {
       "id": 4,
-      "name": "Gyukotsu Ramen",
-      "restaurant": "Za-Ya Ramen",
+      "name": "Yusuke",
+      "restaurant": "Neko?",
       "image": "./assets/ramen/gyukotsu.jpg",
-      "rating": 8,
-      "comment": "Good to the last drop."
+      "rating": 9,
+      "comment": "Is this one a cat or a fox?"
     },
     {
       "id": 5,
-      "name": "Kojiro Red Ramen",
-      "restaurant": "Ramen-Ya",
+      "name": "Haru",
+      "restaurant": "British Shorthair",
       "image": "./assets/ramen/kojiro.jpg",
-      "rating": 6,
-      "comment": "Perfect for a cold night."
+      "rating": 8,
+      "comment": "A late addition, but a welcome one to be sure."
     }
   ]
 }

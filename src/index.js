@@ -1,6 +1,16 @@
 // write your code here 
 const API = "http://localhost:3000/ramens";
 document.getElementById("new-ramen").addEventListener("submit", createNewRamen)
+document.getElementById("kitty-letter").addEventListener("mouseover", cycleRamen)
+function cycleRamen(e) {
+  document.getElementById("kitty-letter").textContent = "Cats R So cute!";
+  // document.getElementById("kitty-letter").style.color = "white";
+}
+document.getElementById("kitty-letter").addEventListener("mouseout", catOut)
+function catOut(e) {
+  document.getElementById("kitty-letter").textContent = "Kitty Letter";
+  // document.getElementById("kitty-letter").style.color = "white";
+}
 
 // First I need to load in the ramen from my local db.json.
 fetch(API)
@@ -62,6 +72,9 @@ function createNewRamen(e) {
   // ramenMenuDiv.append(newRamenHTML);
   
 }
+
+
+
 
 /*   <img id="detail-image" class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
     <h2 id="ramen-name" class="name">Insert Name Here</h2>

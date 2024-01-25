@@ -7,7 +7,7 @@
 body {
   padding: 1rem;
   text-align: center;
-  background-color: #fafafa;
+  background-color: #e14a4a;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,8 +17,8 @@ body {
 header {
   padding: 0.5rem;
   width: 100%;
-  color: white;
-  background-color: black;
+  color: purple;
+  background-color: turquoise;
 }
 
 #ramen-menu {
@@ -82,9 +82,9 @@ textarea {
 }
 
 input[type="submit"] {
-  color: white;
-  border: 1px solid white;
-  background-color: black;
+  color: rgb(128, 87, 232);
+  border: 1px solid rgb(116, 75, 219);
+  background-color: rgb(181, 234, 68);
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -97,6 +97,10 @@ form h4 {
   width: 100%;
   padding: 0.25rem;
   margin: 0.5rem 0;
-  color: white;
-  background-color: black;
+  color: rgb(223, 79, 168);
+  background-color: rgb(64, 226, 224);
 }
+
+/* #right {
+  right:0;
+} */
